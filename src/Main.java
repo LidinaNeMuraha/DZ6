@@ -88,13 +88,14 @@ public class Main {
 
         // zadanie 8
 
-        int god = 2024;
+        int god = 2017;
         int proshloe = god - 200;
         int budushee = god + 100;
 
         while (proshloe < budushee) {
 
-            budushee = budushee + 79;
+            proshloe = proshloe + 79;
+            System.out.println(proshloe);
 
 
         }
