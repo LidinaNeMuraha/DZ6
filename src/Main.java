@@ -93,7 +93,10 @@ public class Main {
 
         while (proshloe < budushee) {
             if (proshloe % 79 == 0) {
-                System.out.println(proshloe);
+                if (proshloe != 1817){
+                    System.out.println(proshloe);
+                }
+
             }
             proshloe = proshloe + 79;
 
