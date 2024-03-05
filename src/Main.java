@@ -8,7 +8,6 @@ public class Main {
         int i = 0;
 
         while (total <= 2_459_000) {
-            total = total + total/100;
             total = total + salary;
             i = i + 1;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рубдлей");
@@ -21,12 +20,12 @@ public class Main {
 
         while (a < 10) {
             a = a + 1;
-            System.out.print(a);
+            System.out.print(" " + a);
         }
         System.out.println();
 
         for (int b = 10; b > 0; b--){
-            System.out.print(b);
+            System.out.print(" " + b);
         }
         System.out.println( );
 
@@ -42,8 +41,8 @@ public class Main {
 
         while (year <= 9){
 
-            rosdaemostVGod = 12000 * rodilos;
-            smertVGod = 12000 * smert;
+            rosdaemostVGod = gorodUrupinsk * rodilos/1000;
+            smertVGod = gorodUrupinsk * smert/1000;
             chislennoct = rosdaemostVGod - smertVGod;
             gorodUrupinsk = gorodUrupinsk + chislennoct;
             year = year + 1;
@@ -81,7 +80,7 @@ public class Main {
         int chislo = 5;
         System.out.println("Сегодня пятница " + chislo + "-е число. Необходимо подговоить отчет");
 
-        while (chislo <= 25) {
+        while (chislo <= 31) {
             chislo = chislo + 7;
             System.out.println("Сегодня пятница " + chislo + "-е число. Необходимо подговоить отчет");
         }
@@ -93,7 +92,7 @@ public class Main {
         int budushee = god + 100;
 
         while (proshloe < budushee) {
-            if (proshloe % 79 == 0); {
+            if (proshloe % 79 == 0) {
                 System.out.println(proshloe);
             }
             proshloe = proshloe + 79;
