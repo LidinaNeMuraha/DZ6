@@ -92,10 +92,10 @@ public class Main {
         int budushee = god + 100;
 
         while (proshloe < budushee) {
+            proshloe = proshloe + 79;
             if (proshloe % 79 == 0) {
                 System.out.println(proshloe);
             }
-            proshloe = proshloe + 79;
 
 
 
